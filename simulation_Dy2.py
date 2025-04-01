@@ -55,7 +55,7 @@ except:
 
 # Load car image - REPLACE 'car.png' WITH YOUR IMAGE FILENAME
 try:
-    car_img = pygame.image.load('car.png')
+    car_img = pygame.image.load('car1.png')
     car_img = pygame.transform.scale(car_img, (40, 80))
     car_img = car_img.convert_alpha()
 except:
